@@ -1,0 +1,39 @@
+/* CSS For Overall Website */
+body{
+    background-color: #dbdbdb;
+}
+p{
+    font-size: 16px;
+}
+h5{
+    margin-top: 10px;
+}
+
+.card{
+    margin: 50px;
+}
+
+h3{
+    padding-top: 8px;
+}
+
+
+/* CSS For Portfolio Columns */
+
+.mycon{
+    margin-top: 20px;
+    /* border: 1px solid black; */
+    background-color: white;
+}
+.myrow{
+    /* border: 1px solid red; */
+    background-color: white;
+}
+.myrow2{
+    margin-bottom: 25px;
+}
+.mycol{
+    margin: 5px;
+    /* border: 1px solid green; */
+    background-color: #f0f0f0;
+}

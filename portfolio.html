@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+    <title>Raffay Ahmed</title>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#"><b>Raffay Ahmed</b></a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ml-auto">
+          <a class="nav-item nav-link" href="index.html">About</a>
+          <a class="nav-item nav-link active" href="portfolio.html"
+            >Portfolio</a
+          >
+          <a class="nav-item nav-link" href="contact.html">Contact</a>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container mycon rounded">
+      <h3>Projects</h3>
+      <div class="row myrow justify-content-around">
+        <div class="col-sm-3 mycol rounded">
+          <h5>Rock Paper Scissors!</h5>
+          <img
+            class="img-fluid"
+            src="imgs/rps.png"
+            alt="rock paper scissors"
+            style="width: 60%; display: block; margin: 0 auto; margin-bottom: 10px; border: 1px solid #000000;"
+          />
+          <p>
+            Created a Rock Paper Scissors game within the browser using
+            Javascript. The player faces a computer using randomized moves for
+            10 rounds. Once 10 rounds has been reached, the game will display
+            the winner.
+          </p>
+        </div>
+        <div class="col-sm-3 mycol rounded">
+          <h5>3D Mapping Using Drones</h5>
+          <img
+            class="img-fluid"
+            src="imgs/drone.jpg"
+            alt="rock paper scissors"
+            style="width: 90%; display: block; margin: 0 auto; margin-bottom: 10px; border: 1px solid #000000;"
+          />
+          <p>
+            Used Python to instruct a drone to fly over speficied areas to
+            collect topographical data. Data collected was then used to create a
+            3D representation of the surfaces. Project has scope for military,
+            firefighters, constructions, etc.
+          </p>
+        </div>
+        <div class="col-sm-3 mycol rounded">
+          <h5>Tragectory Calculator</h5>
+          <img
+            class="img-fluid"
+            src="imgs/jet.jpg"
+            alt="rock paper scissors"
+            style="width: 70%; display: block; margin: 0 auto; margin-bottom: 10px; border: 1px solid #000000;"
+          />
+          <p>
+            Used a network of sonar sensors to track an object in flight. Sonar
+            sensors collected data of the object's flight path and calculate the
+            trajectory of the object to point of impact.
+          </p>
+        </div>
+      </div>
+      <div class="row myrow justify-content-around">
+        <div class="col-sm-3 mycol rounded">
+          <h5>Habits</h5>
+          <img
+            class="img-fluid"
+            src="imgs/habit.webp"
+            alt="rock paper scissors"
+            style="width: 80%; display: block; margin: 0 auto; margin-bottom: 10px; border: 1px solid #000000;"
+          />
+          <p>
+            Created an application to track a user's habits, with reminders for them to keep up with them.
+            Allows the user to store the habits in the cloud and sync between any devices that have the same application.
+          </p>
+        </div>
+        <div class="col-sm-3 mycol rounded">
+          <h5>Dice</h5>
+          <img
+            class="img-fluid"
+            src="imgs/dice.jpg"
+            alt="rock paper scissors"
+            style="width: 60%; display: block; margin: 0 auto; margin-bottom: 10px; border: 1px solid #000000;"
+          />
+          <p>
+            Created a random number generator between the limits the user defines. Created to make sure no one forgets their dice for DnD.
+          </p>
+        </div>
+        <div class="col-sm-3 mycol rounded">
+          <h5>Coding Portfolio</h5>
+          <img
+            class=""
+            src="imgs/website.webp"
+            alt="rock paper scissors"
+            style="width: 80%; display: block; margin: 0 auto; margin-bottom: 10px; border: 1px solid #000000;"
+          />
+          <p>
+            Created this website to connect front end and back end aspects of
+            the bootcamp. HTML, CSS, and JS created the appearance of this
+            webiste, while noSQL was used as a server to store contact forms
+            from the contact page.
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
