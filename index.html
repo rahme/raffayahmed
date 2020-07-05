@@ -2,94 +2,152 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <script
-      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-      crossorigin="anonymous"
-    ></script>
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
-      crossorigin="anonymous"
-    />
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-      crossorigin="anonymous"
-    ></script>
-
-    <link rel="stylesheet" type="text/css" href="style.css" />
-
     <title>Raffay Ahmed</title>
-  </head>
 
+    <!--Links to CSS-->
+    <!-- JQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js"></script>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
+    <!-- Link to Jquery -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.js"
+      integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+      crossorigin="anonymous"
+    ></script>
+    <!--Icons Link-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/konpa/devicon@master/devicon.min.css">
+    <link rel="stylesheet" href="Assests/css/style.css">
+  </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <a class="navbar-brand" href="index.html"><b>Raffay Ahmed</b></a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarNavAltMarkup"
-        aria-controls="navbarNavAltMarkup"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
+    <!-- Insert NavBar -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark nav-custom">
+      <a class="navbar-brand" href="#"><strong>Raffay Ahmed</strong></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav ml-auto">
-          <a class="nav-item nav-link active" href="index.html"
-            >About<span class="sr-only">(current)</span></a
-          >
-          <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
-          <a class="nav-item nav-link" href="contact.html">Contact</a>
-        </div>
+    
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="#aboutme">About Me<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#resume">Resume</a>
+          </li>
+        </ul>
       </div>
     </nav>
 
-    <section class="row m-5 justify-content-md-center">
-      <article class="col-md-6 col-off-set-3 pb-5 rounded" style="background-color: white;">
-        <h3 class="page-header">About Me</h3>
-        <img
-          src="imgs/profile-pic.jpg"
-          class="img-fluid rounded"
-          style="display: block; margin: 0 auto; margin-bottom: 20px;"
-        />
-        <p>
-          Hi my name is Raffay Ahmed. I have graduated from the University of
-          California, Riverside with a B.S in Chemical Engineering. Currently I
-          am working in the pharmaceutical industry, but am taking a Full Stack
-          Development bootcamp through UCR and Trilogy to pursue my interests in
-          coding and make a future career out of it. My dream job is to be a
-          Software Engineer within the aerospace industry - combining my
-          engineering, coding, and aerospace interests.
-        </p>
-        <p>
-          On my own time I like to play video games, go out for food with
-          friends and watch movies. Currently I am also teaching myself Python
-          and C++ to help build my coding background.
-        </p>
-        <p>
-          <a href="https://www.linkedin.com/in/raffay-ahmed-13a609156/">LinkedIn</a>
-          <br>
-          <a href="https://github.com/rahme">GitHub</a>
-        </p>
-      </article>
-    </section>
-  </body>
-
-  <footer class="footer">
-    <div class="footer-copyright text-center py-3">Created by Raffay Ahmed using Bootstrap
+    <!-- My Bio-->
+    <div id="aboutme" class="container mycon" style="margin-top: 20px;">
+      <div class="row myrow border border-dark shadow rounded card-color" style="margin-left: 2px; margin-right: 2px;">
+        <div class="col-xl-auto d-flex justify-content-center shomycol" style="padding: 10px;">
+          <img src="Assests/images/profile-pic-3.jpg" style="width:auto;" class="img-fluid shadow-sm rounded" alt="Responsive Profile Picture">
+        </div>
+        <div class="col-md mycol">
+          <!-- Name and Title Scroller -->
+          <p style="font-size: 45px; margin: 0;"><strong>Raffay Ahmed</strong> <span></span></p>
+          <p style="font-size: 30px;">Full-Stack Developer</p>
+          <p>
+            I am a Full-Stack Developer with an engineering background from Corona, California.
+            During my education I took classes that involved coding with C++, C#, and Matlab.
+            Since then coding has always been an interest for me because of the critical thinking, problem solving, and logical thinking.
+            After graduating in 2019, I've been self-teaching myself computer languages, such as C++, Java, and Python, and wanted to develope these skills in a way to benefit my career.
+            I've finished a 6 month Full-Stack Development Bootcamp at the University of California, Riverside which has provided me with the skills and resources to take the first steps for a career in tech-industry.
+          </p>
+        </div> 
+      </div>
     </div>
-  </footer>
+
+    <!--Skills-->
+    <!-- <div class="container" style="margin-top: 20px;">
+      <div class="row border shadow rounded" style="margin-right: 2px; margin-left: 2px;">
+        <div class="col">
+          <p style="font-size: 30px; padding-top: 5px; margin: 0;"><strong>My Skills</strong></p>
+          <img src="https://img.icons8.com/color/48/000000/javascript.png"/>
+      </div>
+    </div> -->
+
+    <!--Projects-->
+    <div id="projects" class="container" style="">
+      <div class="row border rounded shadow card-color" style="margin-top: 20px; margin-left: 2px; margin-right: 2px;">
+        <div class="container">
+          <p style="font-size: 40px; margin-top: 5px; margin-bottom: 5px;"><strong>Projects</strong></p>
+        </div>
+        <div class="card" style="width: 18rem; margin: auto; margin-top: 20px; margin-bottom: 15px;">
+          <img class="card-img-top" src="Assests/images/password-gen.PNG" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Password Generator</h5>
+            <p class="card-text">A generator that creates a secure password for using the symbols criteria the user inputs.</p>
+            <a href="https://github.com/rahme/password-generator" target="_blank" class="btn btn-dark">Github Repository</a>
+            <a href="https://rahme.github.io/password-generator/" target="_blank" class="btn btn-dark">Web Application</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem; margin: auto; margin-top: 20px; margin-bottom: 15px;">
+          <img class="card-img-top" style="width: 288px; height: 228px;" src="Assests/images/spot-a-show.png" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Spot-A-Show</h5>
+            <p class="card-text">A web-application to look up an artist, their top songs, and upcoming event dates.</p>
+            <a href="https://github.com/rahme/Spot-A-Show" target="_blank" class="btn btn-dark">Github Repository</a>
+            <a href="https://rahme.github.io/Spot-A-Show/" target="_blank" class="btn btn-dark">Web Application</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem; margin: auto; margin-top: 20px; margin-bottom: 15px;">
+          <img class="card-img-top" style="width: 288px; height: 228px;" src="Assests/images/work.png" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Work Day Scheduler</h5>
+            <p class="card-text">A web-application to help plan and keep track of a work day. Auto-updates to show time of day.</p>
+            <a href="https://github.com/rahme/work-schedule" target="_blank" class="btn btn-dark">Github Repository</a>
+            <a href="https://rahme.github.io/work-schedule/" target="_blank" class="btn btn-dark">Web Application</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem; margin: auto; margin-top: 20px; margin-bottom: 15px;">
+          <img class="card-img-top" style="width: 288px; height: 228px;" src="Assests/images/quiz.PNG" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Work Day Scheduler</h5>
+            <p class="card-text">A web-application that tests the user's Javascript knowledege. The highscores are saved in local storage.</p>
+            <a href="https://github.com/rahme/js-quiz" target="_blank" class="btn btn-dark">Github Repository</a>
+            <a href="https://rahme.github.io/js-quiz/" target="_blank" class="btn btn-dark">Web Application</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem; margin: auto; margin-top: 20px; margin-bottom: 15px;">
+          <img class="card-img-top" style="width: 288px; height: 228px;" src="Assests/images/weather.PNG" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Weather</h5>
+            <p class="card-text">A web-application finds the weather, wind speed, humidity, and UV index of searched locations.</p>
+            <a href="https://github.com/rahme/weather-week" target="_blank" class="btn btn-dark">Github Repository</a>
+            <a href="https://rahme.github.io/weather-week/" target="_blank" class="btn btn-dark">Web Application</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="container">
+      <div id="resume" class="row border shadow card-color d-flex" style="margin-right: 2px; margin-left: 2px; margin-top: 20px">
+        <p style="font-size: 35px; margin-left: 15px; margin-top: 5px;"><strong>Resume</strong></p>
+        <img class="img-fluid" style="margin: auto;" src="Assests/images/resume.PNG">
+        <a style="margin-left: 10px; margin-top: 5px;" target="_blank" href="https://drive.google.com/file/d/1duPRhJWBumZWa-Zut6AtG7csqreKeW8i/view?usp=sharing"><strong>PDF Version of Resume</strong></a>
+      </div>
+    </div>
+
+    <!--Link to Script-->
+    <script type="text/javascript" src="Assests/js/script.js"></script>
+  </body>
 </html>

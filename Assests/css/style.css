@@ -1,0 +1,22 @@
+/* .mycol{
+    border: 1px green solid;
+}
+.myrow{
+    border: 1px red solid;
+}
+.mycon{
+    border: 1px black solid;
+} */
+
+body{
+    padding-top: 45px;
+    background-color: #3b6978;
+}
+
+.nav-custom{
+    background-color: #84a9ac;
+}
+
+.card-color{
+    background-color: #e7dfd5;
+}
