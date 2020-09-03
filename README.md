@@ -15,4 +15,4 @@ This respository is intended to be used as a portfolio website.
 This website was made using Bootstrap 4. Please visit **[their website](http://www.github.com/)** to support them and learn more.
 
 ## License
-This websit HTML and CSS can be used by anyone, replacing it with their own information.
+This website HTML and CSS can be used by anyone, replacing it with their own information.
